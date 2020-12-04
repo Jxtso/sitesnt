@@ -1,0 +1,35 @@
+
+html {
+    height: 100%;
+
+}
+
+body {
+    background-image: url(../images/Back.png);
+    margin: 0;
+}
+.tarif {
+    width: 100%;
+
+}
+
+.bando {
+    background-color: white;
+    width: 50%;
+    margin-right: auto;
+    margin-left: auto;
+    min-width: 500px;
+    padding: 50px;
+    height: 1000px;
+
+
+    
+
+}
+p {
+    color: rgb(1, 1, 1);
+    font-size: 30px;
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+}
+

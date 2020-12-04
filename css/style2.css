@@ -1,0 +1,23 @@
+
+html {
+    height: 100%;
+
+}
+
+body {
+    background-image: url(../images/Back2.png);
+}
+
+
+img.Discord { 
+    height: 120px;
+    margin-left: 100px;
+    margin-top: 200px   ;
+}
+
+.mail {
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+}
