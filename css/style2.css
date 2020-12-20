@@ -6,6 +6,7 @@ html {
 
 body {
     background-image: url(../images/Back2.png);
+
 }
 
 
@@ -20,4 +21,12 @@ img.Discord {
     font-size: 30px;
     text-decoration: none;
     font-family: 'Lato', sans-serif;
+}
+
+.div2 {
+    background-color: white;
+    width: 669px;
+    height: 980px;
+    margin: 0px ;
+
 }
