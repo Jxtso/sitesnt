@@ -1,15 +1,20 @@
 
 html {
     height: 100%;
+    margin: 0px;
 
 }
 
 body {
     background-image: url(../images/Back.png);
-    margin: 0;
+    margin: 0px;
+    height: 100%;
+    background-repeat:no-repeat;
 }
+
 .tarif {
     width: 100%;
+    
 
 }
 
@@ -31,5 +36,13 @@ p {
     font-size: 30px;
     text-decoration: none;
     font-family: 'Lato', sans-serif;
+}
+
+.paypal {   
+
+    height: 120px;
+    margin-left: 120px;
+    margin-top: 10px   ;
+    margin-right: 100px;
 }
 
