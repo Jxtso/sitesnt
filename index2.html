@@ -4,7 +4,15 @@
   <meta charset="utf-8">
   <title>Nous Contacter</title>
   <link rel="stylesheet" href="css/style2.css">
-
+  <script>
+    function copyToClipboard(element) {
+  var $temp = $("<input>");
+  $("body").append($temp);
+  $temp.val($(element).text()).select();
+  document.execCommand("copy");
+  $temp.remove();
+}
+  </script>
   
 </head>
 
@@ -19,18 +27,22 @@
     
   </a>
 <div class="maildiv">
-  <img class="emailimg" src="images/gmail.png" alt="">
-  <input type="text" value="Email de contact, cliquez pour afficher">
-  <div id="content">
-    jutsocarry@gmail.com
-  </div>
-  <br>
-  </div>
-  
-   <input type="text" value="Discord personnel, cliquez pour afficher">
-  <div id="content">
-  BAKASABL#6229
-  </div>
+
+  <img class="emailimg" src="images/gmail.png" alt=""> 
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+    <p id="p1">jutsocarry@gmail.com</p>
+    <p id="p2">BAKASABL#6229</p><br/>
+    
+    <button onclick="copyToClipboard('#p1')">Copier l'email</button>
+    <br>
+    <button  onclick="copyToClipboard('#p2')">Copier le tag Discord</button>
+
+
+
+ 
+
 
  </div>
 
