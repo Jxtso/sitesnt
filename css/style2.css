@@ -12,9 +12,11 @@ body {
 
 
 img.Discord { 
-    height: 120px;
+    height: 60px;
     margin-top: 2%   ;
     display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
@@ -34,8 +36,9 @@ img.Discord {
 
 .emailimg {
     display: block;
-    height: 120px;  
-
+    height: 60px;  
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
@@ -43,27 +46,64 @@ button  {
   height:30px;
   width:150px;
   border: none;
-  padding:0px;
+  padding:10px;
   font-size:20px;
   height:52px;
   cursor:pointer;
   background-color:white;
   margin-left: 23%;
   margin-top: auto;
+  display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
  
 
 
 }
 
 
-p {
-    color: white;
+
+
+
+.dcp {
+
+    display: block;
+    height: 60px;  
+    margin-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+
 }
 
+.titre {
 
-
+    font-family: 'Lato', sans-serif;
+    font-size: 38px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin-top: 4%;
+    background-color: rgb(255, 255, 255);
+}
 
   
+.liendctxt {
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+}
 
+.button1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: non;
+}
 
+.texteacopier {
 
+    display: none;
+}
